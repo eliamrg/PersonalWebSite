@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https//eliamrg.github.io/PersonalWebSite/static/css/main.073c9b0a.css",
+    "main.js": "/https//eliamrg.github.io/PersonalWebSite/static/js/main.bee44dc0.js",
+    "static/js/787.5809834d.chunk.js": "/https//eliamrg.github.io/PersonalWebSite/static/js/787.5809834d.chunk.js",
+    "static/media/logo.svg": "/https//eliamrg.github.io/PersonalWebSite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/https//eliamrg.github.io/PersonalWebSite/index.html",
+    "main.073c9b0a.css.map": "/https//eliamrg.github.io/PersonalWebSite/static/css/main.073c9b0a.css.map",
+    "main.bee44dc0.js.map": "/https//eliamrg.github.io/PersonalWebSite/static/js/main.bee44dc0.js.map",
+    "787.5809834d.chunk.js.map": "/https//eliamrg.github.io/PersonalWebSite/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bee44dc0.js"
+  ]
+}
