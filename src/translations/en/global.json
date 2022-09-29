@@ -1,0 +1,47 @@
+{
+    "header":{
+        "hello-world": "Hello World"
+    },
+    "languaje":{
+        "switch": "es"
+    },
+    "navbar":{
+        "languaje": "Cambiar a Español",
+        "home": "Home",
+        "skills": "Skills",
+        "projects": "Projects",
+        "connect":"Let's Connect"
+    },
+    "banner":{
+        "intro":"As you could read I'm a developer, or at least I try. I'm currently in college studying computer science. I have some experience developing (c, c++, c#, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc). Also I have work a litle bit using Azure tables and Blob Containers on a Storage Acount with .Net.",
+        "title":"Hi! I'm Santiago Eliam",
+        "title-rotate":[ "Developer", "App Developer", "Web Developer??"],
+        "title-rotate1":"Developer", 
+        "title-rotate2":"App Developer",
+        "title-rotate3": "Web Developer??",
+        "welcome":"Welcome to my Portfolio"
+    },
+    "skills":{
+        "intro1":"There is a little bit of my skills and experience.",
+        "intro2":"Porcentages may be modified.",
+        "skill1":"Desktop Apps Development",
+        "skill2":"Angular Mobile Apps",
+        "skill3":"SQL Databases"
+    },
+    "projects":{
+        "intro":"I have made a lot of applications in college, but also I like to create apps for fun, there are some examples."
+    },
+    "contact":{
+        "title":"Get In Touch",
+        "first-name":"First Name",
+        "last-name":"Last Name",
+        "email":"Email Address",
+        "phone":"Phone No.",
+        "message":"Message",
+        "send":"Send",
+        "sending":"Sending..."
+
+    },
+    "mygit":"My GitHub:"
+
+}

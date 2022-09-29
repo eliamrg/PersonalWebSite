@@ -9,6 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -31,10 +32,13 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
+  const [t,i18n]=useTranslation("global");
 
   return (
+    
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+        
         <Container>
           <Navbar.Brand href="/">
             
@@ -44,9 +48,13 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+
+            
+            <Nav.Link  className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=> i18n.changeLanguage(t("languaje.switch"))}>{t("navbar.languaje")}</Nav.Link>
+              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>{t("navbar.home")}</Nav.Link>
+              
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>{t("navbar.skills")}</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>{t("navbar.projects")}</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -55,7 +63,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/eliam_rg/"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>{t("navbar.connect")}</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

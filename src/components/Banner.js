@@ -1,17 +1,20 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/DesktopGuy.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { useTranslation } from "react-i18next";
+
 
 export const Banner = () => {
+  const [t,i18n]=useTranslation("global");
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Developer", "App Developer", "Web Developer??"  ];
+  const toRotate = [t("banner.title-rotate1"), t("banner.title-rotate2"), t("banner.title-rotate3")  ];
   const period = 2000;
 
   useEffect(() => {
@@ -47,26 +50,26 @@ export const Banner = () => {
     }
   }
 
+  
+
   return (
+    
     <section className="banner" id="home">
       <Container>
+      
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Santiago`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Developer", "App Developer", "Web Developer??"]'><span className="wrap">{text}</span></span></h1>
+                <span className="tagline">{t("banner.welcome")} "(EN DESARROLLO)"</span>
+                <h1>{t("banner.title")} <span className="txt-rotate" dataPeriod="1000" data-rotate={t("banner.title-rotate")}><span className="wrap">{text}</span></span></h1>
                   <p>
                   Hello There!
                   <br></br>
-                  As you could read I am a developer, or at least I try. 
-                  I am currently in college studying computer science.
-                  I have some experience developing (c, c++, c#, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc). 
-                  Also I have work a litle bit using Azure tables and Blob Containers on a Storage Acount with .Net.
-                  
+                  {t("banner.intro")} 
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>{t("navbar.connect")} <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

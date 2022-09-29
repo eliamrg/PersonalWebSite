@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
-
+import { useTranslation } from "react-i18next";
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
-
+  const [t,i18n]=useTranslation("global");
   useEffect(() => {
     if (status === 'success') clearFields();
   }, [status])
@@ -26,7 +26,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>My GitHub:<br></br>
+              <h3>{t("mygit")}<br></br>
               <a href="https://github.com/eliamrg">eliamrg</a> 
               </h3>
               

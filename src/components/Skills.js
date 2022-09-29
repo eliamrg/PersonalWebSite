@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-
+import { useTranslation } from "react-i18next";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -27,27 +27,27 @@ export const Skills = () => {
       items: 1
     }
   };
-
+  const [t,i18n]=useTranslation("global");
   return (
     <section className="skill" id="skills">
         <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>There is a little bit of my skills and experience.<br></br> Porcentages may be modified.</p>
+                        <h2>{t("navbar.skills")}</h2>
+                        <p>{t("skills.intro1")}<br></br> {t("skills.intro2")}</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Desktop Apps Development</h5>
+                                <h5>{t("skills.skill1")}</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Angular Apps</h5>
+                                <h5>{t("skills.skill2")}</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>SQL Databases</h5>
+                                <h5>{t("skills.skill3")}</h5>
                             </div>
                             
                         </Carousel>

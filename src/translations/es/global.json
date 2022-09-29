@@ -1,0 +1,47 @@
+{
+    "header":{
+        "hello-world": "Hola Mundo"
+    },
+    "languaje":{
+        "switch": "en"
+    },
+    "navbar":{
+        "languaje": "Switch to English",
+        "home": "Inicio",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "connect":"Contáctame"
+    },
+    "banner":{
+        "intro":"Como puedes leer soy desarrollador, o al menos lo intento. Actualmente estoy en la universidad estudiando Ciencias Computacionales. Tengo algo de experiencia en desarrollo (c, c ++, c #, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc.). También he trabajado un poco usando tablas de Azure y Blob Containers en una cuenta de almacenamiento con .Net.",
+        "title":"Hola! Soy Santiago Eliam",
+        "title-rotate":[ "Desarrollador", "Desarrollador de Apps", "Desarrollador Web??"],
+        "title-rotate1":"Desarrollador", 
+        "title-rotate2":"Desarrollador de Apps",
+        "title-rotate3": "Desarrollador Web??",
+        "welcome":"Bienvenido a mi Portafolio"
+    },
+    "skills":{
+        "intro1":"Aqui hay un poco de mis Habilidades y Experiencia.",
+        "intro2":"Los porcentages pueden cambiar:).",
+        "skill1":"Desarrollo de Aplicaciones de Escritorio",
+        "skill2":"Aplicaciones Mobiles en Angular",
+        "skill3":"Bases de Datos SQL"
+    },
+    "projects":{
+        "intro":"He hecho muchas aplicaciones en la universidad, pero también me gusta crear aplicaciones para divertirme, aquí algunos ejemplos."
+    },
+    "contact":{
+        "title":"Ponte En Contacto",
+        "first-name":"Nombre",
+        "last-name":"Apellido",
+        "email":"Correo Electrónico",
+        "phone":"No. Telefono",
+        "message":"Mensaje",
+        "send":"Enviar",
+        "sending":"Enviando..."
+
+    },
+    "mygit":"Mi GitHub:"
+
+}
