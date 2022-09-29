@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/PersonalWebSite/static/css/main.8957e130.css",
-    "main.js": "/PersonalWebSite/static/js/main.858c7010.js",
+    "main.js": "/PersonalWebSite/static/js/main.1b41bd86.js",
     "static/js/787.5809834d.chunk.js": "/PersonalWebSite/static/js/787.5809834d.chunk.js",
     "static/media/color-sharp.png": "/PersonalWebSite/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/PersonalWebSite/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/PersonalWebSite/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/header-img.svg": "/PersonalWebSite/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/PersonalWebSite/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/PersonalWebSite/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/PersonalWebSite/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img1.png": "/PersonalWebSite/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/footer-bg.png": "/PersonalWebSite/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/DesktopGuy.svg": "/PersonalWebSite/static/media/DesktopGuy.4601981cc02e5d4136e5da2a961f3a46.svg",
     "static/media/project-img2.png": "/PersonalWebSite/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/monitor.svg": "/PersonalWebSite/static/media/monitor.30f17fc32b4ac1ac44af6e9425e1447b.svg",
     "static/media/project-img3.png": "/PersonalWebSite/static/media/project-img3.675b30d2f975a1bc1d09.png",
-    "static/media/contact-img.svg": "/PersonalWebSite/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/PersonalWebSite/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/PersonalWebSite/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/PersonalWebSite/static/media/revicons.e8746a624ed098489406.woff",
@@ -28,11 +28,11 @@
     "static/media/arrow1.svg": "/PersonalWebSite/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/PersonalWebSite/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.8957e130.css.map": "/PersonalWebSite/static/css/main.8957e130.css.map",
-    "main.858c7010.js.map": "/PersonalWebSite/static/js/main.858c7010.js.map",
+    "main.1b41bd86.js.map": "/PersonalWebSite/static/js/main.1b41bd86.js.map",
     "787.5809834d.chunk.js.map": "/PersonalWebSite/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8957e130.css",
-    "static/js/main.858c7010.js"
+    "static/js/main.1b41bd86.js"
   ]
 }
