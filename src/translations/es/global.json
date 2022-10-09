@@ -15,10 +15,10 @@
     "banner":{
         "intro":"Como puedes leer soy desarrollador, o al menos lo intento. Actualmente estoy en la universidad estudiando Ciencias Computacionales. Tengo algo de experiencia en desarrollo (c, c ++, c #, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc.). También he trabajado un poco usando tablas de Azure y Blob Containers en una cuenta de almacenamiento con .Net.",
         "title":"Hola! Soy Santiago Eliam",
-        "title-rotate":[ "Desarrollador", "Desarrollador de Apps", "Desarrollador Web??"],
+        "title-rotate":[ "Desarrollador", "Desarrollador de Apps", "Desarrollador??"],
         "title-rotate1":"Desarrollador", 
         "title-rotate2":"Desarrollador de Apps",
-        "title-rotate3": "Desarrollador Web??",
+        "title-rotate3": "Desarrollador??",
         "welcome":"Bienvenido a mi Portafolio"
     },
     "skills":{
@@ -38,7 +38,10 @@
         "Desktop3":"Sistema de Farmacia",
         "Math1":"Método Gauss-Jordan",
         "Math2":"Método de la Falsa Posición",
-        "Math3":"Polinomio de Interpolación"
+        "Math3":"Polinomio de Interpolación",
+        "Tab1":"Aplicaciones Moviles",
+        "Tab2":"Sistemas de Información",
+        "Tab3":"Aplicaciones Matemáticas"
     },
     "contact":{
         "title":"Ponte En Contacto",

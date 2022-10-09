@@ -38,7 +38,10 @@
         "Desktop3":"Pharmacy Store System",
         "Math1":"Gauss-Jordan Method",
         "Math2":"False Position Method",
-        "Math3":"Polynomial interpolation"
+        "Math3":"Polynomial interpolation",
+        "Tab1":"Mobile Apps",
+        "Tab2":"Information Systems",
+        "Tab3":"Math Apps"
         
     },
     "contact":{
