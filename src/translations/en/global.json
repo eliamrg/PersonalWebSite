@@ -15,10 +15,10 @@
     "banner":{
         "intro":"As you could read I'm a developer, or at least I try. I'm currently in college studying computer science. I have some experience developing (c, c++, c#, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc). Also I have work a litle bit using Azure tables and Blob Containers on a Storage Acount with .Net.",
         "title":"Hi! I'm Santiago Eliam",
-        "title-rotate":[ "Developer", "App Developer", "Web Developer??"],
+        "title-rotate":[ "Developer", "App Developer", "Developer??"],
         "title-rotate1":"Developer", 
         "title-rotate2":"App Developer",
-        "title-rotate3": "Web Developer??",
+        "title-rotate3": "Developer??",
         "welcome":"Welcome to my Portfolio"
     },
     "skills":{
@@ -29,7 +29,17 @@
         "skill3":"SQL Databases"
     },
     "projects":{
-        "intro":"I have made a lot of applications in college, but also I like to create apps for fun, there are some examples."
+        "intro":"I have made a lot of applications in college, but also I like to create apps for fun, there are some examples. Click the Image.",
+        "Mobile1":"Social Media",
+        "Mobile2":"Morse Translator (Lantern Message)",
+        "Mobile3":"CRUD Firebase",
+        "Desktop1":"Ticket Sale System",
+        "Desktop2":"CRUD JSP",
+        "Desktop3":"Pharmacy Store System",
+        "Math1":"Gauss-Jordan Method",
+        "Math2":"False Position Method",
+        "Math3":"Polynomial interpolation"
+        
     },
     "contact":{
         "title":"Get In Touch",

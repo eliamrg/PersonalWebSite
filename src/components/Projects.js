@@ -21,53 +21,53 @@ export const Projects = () => {
   const [t,i18n]=useTranslation("global");
   const Mathprojects = [
     {
-      title: "Gauss-Jordan Method",
-      description: "Design & Development",
+      title: t("projects.Math1"),
+      description: "WinForms C#",
       imgUrl: GaussImg,
     },
     {
-      title: "False Position Method",
-      description: "Design & Development",
+      title: t("projects.Math2"),
+      description: "WinForms C#, AngouriMath,  WPF Math",
       imgUrl: FalsePositionImg,
     },
     {
-      title: "Polynomial interpolation",
-      description: "Design & Development",
+      title: t("projects.Math3"),
+      description: "WinForms C#, AngouriMath,  WPF Math",
       imgUrl: InterpolationImg,
     }
   ];
 
   const Mobileprojects = [
     {
-      title: "Social Media",
-      description: "Design & Development",
+      title: t("projects.Mobile1"),
+      description: "Ionic/Angular, Capacitor, Firebase",
       imgUrl: SocialMediaImg,
     },
     {
-      title: "Morse Translator (Lantern Message)",
-      description: "Design & Development",
+      title: t("projects.Mobile2"),
+      description: "Ionic/Angular, Capacitor",
       imgUrl: Morse,
     },
     {
-      title: "CRUD Firebase",
-      description: "Design & Development",
+      title: t("projects.Mobile3"),
+      description: "Ionic/Angular, Capacitor, Firebase",
       imgUrl: Alumnos,
     }
   ];
   const Desktopprojects = [
     {
-      title: "Ticket Sale System",
-      description: "Design & Development",
+      title: t("projects.Desktop1"),
+      description: "WinForms C#, Bunifu, Microsoft SQL Server",
       imgUrl: Tickets,
     },
     {
-      title: "CRUD Java Server Pages",
-      description: "Design & Development",
+      title: t("projects.Desktop2"),
+      description: "Java Server Pages, MySQL",
       imgUrl: CRUDjsp,
     },
     {
-      title: "Pharmacy Store System",
-      description: "Design & Development",
+      title: t("projects.Desktop3"),
+      description: "Java, Swing, MySQL",
       imgUrl: Pharmacy,
     }
   ];

@@ -29,7 +29,16 @@
         "skill3":"Bases de Datos SQL"
     },
     "projects":{
-        "intro":"He hecho muchas aplicaciones en la universidad, pero también me gusta crear aplicaciones para divertirme, aquí algunos ejemplos."
+        "intro":"He hecho muchas aplicaciones en la universidad, pero también me gusta crear aplicaciones para divertirme, aquí algunos ejemplos. Toca la Imagen.",
+        "Mobile1":"Red Social",
+        "Mobile2":"Traductor Morse (Mensaje en Linterna)",
+        "Mobile3":"CRUD Firebase",
+        "Desktop1":"Sistema de Venta de Boletos",
+        "Desktop2":"CRUD JSP",
+        "Desktop3":"Sistema de Farmacia",
+        "Math1":"Método Gauss-Jordan",
+        "Math2":"Método de la Falsa Posición",
+        "Math3":"Polinomio de Interpolación"
     },
     "contact":{
         "title":"Ponte En Contacto",
