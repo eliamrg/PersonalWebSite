@@ -13,7 +13,12 @@
         "connect":"Let's Connect"
     },
     "banner":{
-        "intro":"As you could read I'm a developer, or at least I try. I'm currently in college studying computer science. I have some experience developing (c, c++, c#, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc). Also I have work a litle bit using Azure tables and Blob Containers on a Storage Acount with .Net.",
+        "intro1":"Hi there! I'm an aspiring developer who loves solving problems. I have strong technical skills, particularly in databases and code writing, and an academic background in mathematics, engineering and statistics.",
+        "intro2":"I'm graduating in December 2024 (Computer Science) and I'm interested in half-time, contract or Internship developing roles. Please feel free to get in touch with me via email at",
+        "email":"santiago.rg@live.com",
+        "proeficient":"Proficient: C, C++, C#, Typescript, HTML, SQL, NoSQL, Angular, Ionic Framework ",
+        "competent":"Competent: JavaScript, CSS, Firebase, Git.",
+        "familiar":"Familiar: Python, React, NodeJs.",
         "title":"Hi! I'm Santiago Eliam",
         "title-rotate":[ "Developer", "App Developer", "Developer??"],
         "title-rotate1":"Developer", 
@@ -23,13 +28,13 @@
     },
     "skills":{
         "intro1":"There is a little bit of my skills and experience.",
-        "intro2":"Porcentages may be modified.",
+        "intro2":"",
         "skill1":"Desktop Apps Development",
         "skill2":"Angular Mobile Apps",
         "skill3":"SQL Databases"
     },
     "projects":{
-        "intro":"I have made a lot of applications in college, but also I like to create apps for fun, there are some examples. Click the Image.",
+        "intro":"I have made a lot of applications in college, but also I like to create apps for fun, there are some examples. Click on the Image to read a description.",
         "Mobile1":"Social Media",
         "Mobile2":"Morse Translator (Lantern Message)",
         "Mobile3":"CRUD Firebase",
@@ -39,10 +44,18 @@
         "Math1":"Gauss-Jordan Method",
         "Math2":"False Position Method",
         "Math3":"Polynomial interpolation",
-        "Tab1":"Mobile Apps",
-        "Tab2":"Information Systems",
-        "Tab3":"Math Apps"
-        
+        "Tab1":"Social App",
+        "Tab2":"Mobile Apps",
+        "Tab3":"Desktop Apps",
+        "Ellie-Login":"Sign in",
+        "Ellie-CreateAccount":"Sign up",
+        "Ellie-Home":"Home Page",
+        "Ellie-License":"License Agreement",
+        "Ellie-Messages":"Messages",
+        "Ellie-Notifications":"Notifications",
+        "Ellie-Posts":"Create a Post",
+        "Ellie-Profile":"Profile Page",
+        "Ellie-Settings":"Settings"
     },
     "contact":{
         "title":"Get In Touch",

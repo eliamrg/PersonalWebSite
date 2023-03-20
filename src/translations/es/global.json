@@ -13,7 +13,12 @@
         "connect":"Contáctame"
     },
     "banner":{
-        "intro":"Como puedes leer soy desarrollador, o al menos lo intento. Actualmente estoy en la universidad estudiando Ciencias Computacionales. Tengo algo de experiencia en desarrollo (c, c ++, c #, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc.). También he trabajado un poco usando tablas de Azure y Blob Containers en una cuenta de almacenamiento con .Net.",
+        "intro1":"¡Hola! Soy un aspirante a desarrollador al que le encanta resolver problemas. Tengo sólidas habilidades técnicas, particularmente en bases de datos y escritura de código, y una formación académica en matemáticas, ingeniería y estadística.",
+        "intro2":"Me graduaré en diciembre de 2024 (Ciencias de la Computación) y estoy interesado en desarrollar roles de medio tiempo, contratos o pasantías. No dude en ponerse en contacto conmigo por correo electrónico a",
+        "email":"santiago.rg@live.com",
+        "proeficient":"Experimentado: C, C++, C#, Typescript, HTML, SQL, NoSQL, Angular, Ionic Framework ",
+        "competent":"Competente: JavaScript, CSS, Firebase, Git.",
+        "familiar":"Familiarizado: Python, React, NodeJs.",
         "title":"Hola! Soy Santiago Eliam",
         "title-rotate":[ "Desarrollador", "Desarrollador de Apps", "Desarrollador??"],
         "title-rotate1":"Desarrollador", 
@@ -23,13 +28,13 @@
     },
     "skills":{
         "intro1":"Aqui hay un poco de mis Habilidades y Experiencia.",
-        "intro2":"Los porcentajes pueden cambiar:).",
+        "intro2":"",
         "skill1":"Desarrollo de Aplicaciones de Escritorio",
         "skill2":"Aplicaciones Mobiles en Angular",
         "skill3":"Bases de Datos SQL"
     },
     "projects":{
-        "intro":"He hecho muchas aplicaciones en la universidad, pero también me gusta crear aplicaciones para divertirme, aquí algunos ejemplos. Toca la Imagen.",
+        "intro":"He hecho muchas aplicaciones en la universidad, pero también me gusta crear aplicaciones para divertirme, aquí algunos ejemplos. Toca la Imagen para leer una descripción.",
         "Mobile1":"Red Social",
         "Mobile2":"Traductor Morse (Mensaje en Linterna)",
         "Mobile3":"CRUD Firebase",
@@ -39,9 +44,18 @@
         "Math1":"Método Gauss-Jordan",
         "Math2":"Método de la Falsa Posición",
         "Math3":"Polinomio de Interpolación",
-        "Tab1":"Aplicaciones Moviles",
-        "Tab2":"Sistemas de Información",
-        "Tab3":"Aplicaciones Matemáticas"
+        "Tab1":"Red Social",
+        "Tab2":"Aplicaciones Moviles",
+        "Tab3":"Apps de Escritorio",
+        "Ellie-Login":"Iniciar Sesión",
+        "Ellie-CreateAccount":"Crear Cuenta",
+        "Ellie-Home":"Pagina Principal",
+        "Ellie-License":"Licencia de Uso",
+        "Ellie-Messages":"Mensajes",
+        "Ellie-Notifications":"Notificaciones",
+        "Ellie-Posts":"Publicar",
+        "Ellie-Profile":"Perfil de Usuario",
+        "Ellie-Settings":"Ajustes"
     },
     "contact":{
         "title":"Ponte En Contacto",

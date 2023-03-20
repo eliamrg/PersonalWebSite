@@ -1,10 +1,24 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
+//ELLIE
+import Login from "../assets/img/Ellie-Login.jpg" ;
+import CreateAccount from "../assets/img/Ellie-CreateAccount.jpg" ;
+import Home from "../assets/img/Ellie-Home.jpg" ;
+import License from "../assets/img/Ellie-License.jpg" ;
+import Messages from "../assets/img/Ellie-Messages.jpg" ;
+import Notifications from "../assets/img/Ellie-Notifications.jpg" ;
+import Post from "../assets/img/Ellie-Post.jpg" ;
+import Profile from "../assets/img/Ellie-Profile.jpg" ;
+import Settings from "../assets/img/Ellie-Settings.jpg" ;
+
+//MOBILE APPS
 import SocialMediaImg from "../assets/img/SocialMedia.jpg";
 import Alumnos from "../assets/img/Alumnos.jpg";
 import Morse from "../assets/img/Morse.jpg";
 
+
+//DESKTOP APPS
 import CRUDjsp from "../assets/img/CRUDjsp.png";
 import Tickets from "../assets/img/BisonBillet.jpg";
 import Pharmacy from "../assets/img/pharmacy.jpg";
@@ -19,22 +33,53 @@ import TrackVisibility from 'react-on-screen';
 import { useTranslation } from "react-i18next";
 export const Projects = () => {
   const [t,i18n]=useTranslation("global");
-  const Mathprojects = [
+  const SocialMediaProject = [
     {
-      title: t("projects.Math1"),
-      description: "WinForms C#",
-      imgUrl: GaussImg,
+      title: t("projects.Ellie-Login"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Login,
     },
     {
-      title: t("projects.Math2"),
-      description: "WinForms C#, AngouriMath,  WPF Math",
-      imgUrl: FalsePositionImg,
+      title: t("projects.Ellie-CreateAccount"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: CreateAccount,
     },
     {
-      title: t("projects.Math3"),
-      description: "WinForms C#, AngouriMath,  WPF Math",
-      imgUrl: InterpolationImg,
-    }
+      title: t("projects.Ellie-Home"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Home,
+    },
+    {
+      title: t("projects.Ellie-Messages"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Messages,
+    },
+    {
+      title: t("projects.Ellie-Posts"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Post,
+    },
+    {
+      title: t("projects.Ellie-Profile"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Profile,
+    },
+    {
+      title: t("projects.Ellie-Notifications"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Notifications,
+    },
+    {
+      title: t("projects.Ellie-Settings"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: Settings,
+    },
+    {
+      title: t("projects.Ellie-License"),
+      description: "Angular/Ionic, Firebase",
+      imgUrl: License,
+    },
+
   ];
 
   const Mobileprojects = [
@@ -69,6 +114,21 @@ export const Projects = () => {
       title: t("projects.Desktop3"),
       description: "Java, Swing, MySQL",
       imgUrl: Pharmacy,
+    },
+    {
+      title: t("projects.Math1"),
+      description: "WinForms C#",
+      imgUrl: GaussImg,
+    },
+    {
+      title: t("projects.Math2"),
+      description: "WinForms C#, AngouriMath,  WPF Math",
+      imgUrl: FalsePositionImg,
+    },
+    {
+      title: t("projects.Math3"),
+      description: "WinForms C#, AngouriMath,  WPF Math",
+      imgUrl: InterpolationImg,
     }
   ];
 
@@ -99,7 +159,7 @@ export const Projects = () => {
                     
                     <Row>
                         {
-                          Mobileprojects.map((project, index) => {
+                          SocialMediaProject.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -113,7 +173,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          Desktopprojects.map((project, index) => {
+                          Mobileprojects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -127,7 +187,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          Mathprojects.map((project, index) => {
+                          Desktopprojects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

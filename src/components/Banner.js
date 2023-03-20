@@ -50,7 +50,7 @@ export const Banner = () => {
     }
   }
 
-  
+   //As you could read I'm a developer, or at least I try. I'm currently in college studying computer science. I have some experience developing (c, c++, c#, java, typescript, javascript, Angular, Ionic, SQL Server, Firebase, etc). Also I have work a litle bit using Azure tables and Blob Containers on a Storage Acount with .Net.
 
   return (
     
@@ -62,12 +62,22 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">{t("banner.welcome")} "(EN DESARROLLO)"</span>
+                <span className="tagline">{t("banner.welcome")}</span>
                 <h1>{t("banner.title")} <span className="txt-rotate" dataPeriod="1000" data-rotate={t("banner.title-rotate")}><span className="wrap">{text}</span></span></h1>
-                  <p>
-                  Hello There!
+                  <p className="banner.text">
+                  
                   <br></br>
-                  {t("banner.intro")} 
+                  {t("banner.intro1")} 
+                  <br></br>
+                  {t("banner.intro2")} 
+                  <br></br>
+                  <a href = "mailto:santiago.rg@live.com">{t("banner.email")} </a>
+                  <br></br><br></br>
+                  {t("banner.proeficient")}
+                  <br></br>
+                  {t("banner.competent")} 
+                  <br></br>
+                  {t("banner.familiar")}  
                   </p>
                   <button onClick={() => console.log('connect')}>{t("navbar.connect")} <ArrowRightCircle size={25} /></button>
               </div>}

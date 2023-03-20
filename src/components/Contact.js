@@ -75,10 +75,12 @@ export const Contact = () => {
                     <Col size={12} sm={6} className="px-1">
                       <input type="tel" value={formDetails.phone} placeholder={t("contact.phone")} onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
+                    
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder={t("contact.message")}onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
+                    <a>Currently Disabled</a>
                     {
                       status.message &&
                       <Col>
