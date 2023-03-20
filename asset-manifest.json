@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/PersonalWebSite/static/css/main.8957e130.css",
-    "main.js": "/PersonalWebSite/static/js/main.9699fea9.js",
+    "main.js": "/PersonalWebSite/static/js/main.3f3d4901.js",
     "static/js/787.5809834d.chunk.js": "/PersonalWebSite/static/js/787.5809834d.chunk.js",
     "static/media/color-sharp.png": "/PersonalWebSite/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/PersonalWebSite/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/PersonalWebSite/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/pharmacy.jpg": "/PersonalWebSite/static/media/pharmacy.4262c9e0d7a05bcfd365.jpg",
+    "static/media/Ellie-License.jpg": "/PersonalWebSite/static/media/Ellie-License.d4056d291489b94fee09.jpg",
+    "static/media/Ellie-Post.jpg": "/PersonalWebSite/static/media/Ellie-Post.81c33961e3f81b3b330d.jpg",
     "static/media/reglaFalsa.png": "/PersonalWebSite/static/media/reglaFalsa.4ecd990341975885b642.png",
+    "static/media/Ellie-Profile.jpg": "/PersonalWebSite/static/media/Ellie-Profile.f1ac8ff8da07104794be.jpg",
     "static/media/CRUDjsp.png": "/PersonalWebSite/static/media/CRUDjsp.35e496fae21087e50f88.png",
     "static/media/InterpolacionUnico.png": "/PersonalWebSite/static/media/InterpolacionUnico.c94b055c4084ef7ff236.png",
     "static/media/CentraNo2-Bold.ttf": "/PersonalWebSite/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -15,11 +18,17 @@
     "static/media/BisonBillet.jpg": "/PersonalWebSite/static/media/BisonBillet.b68854a94d8e0c85372a.jpg",
     "static/media/CentraNo2-Book.ttf": "/PersonalWebSite/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/Alumnos.jpg": "/PersonalWebSite/static/media/Alumnos.ddff1ff4d0968d6c790e.jpg",
+    "static/media/Ellie-Home.jpg": "/PersonalWebSite/static/media/Ellie-Home.d78736cbaca2af413542.jpg",
+    "static/media/Ellie-Settings.jpg": "/PersonalWebSite/static/media/Ellie-Settings.60f30eccaa5118303e2d.jpg",
+    "static/media/Ellie-Notifications.jpg": "/PersonalWebSite/static/media/Ellie-Notifications.73d6b7283bc8c89264d9.jpg",
     "static/media/footer-bg.png": "/PersonalWebSite/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/SocialMedia.jpg": "/PersonalWebSite/static/media/SocialMedia.16113b9f6e379b296a72.jpg",
+    "static/media/Ellie-CreateAccount.jpg": "/PersonalWebSite/static/media/Ellie-CreateAccount.32c366e1cefe92263588.jpg",
     "static/media/DesktopGuy.svg": "/PersonalWebSite/static/media/DesktopGuy.4601981cc02e5d4136e5da2a961f3a46.svg",
     "static/media/gauss-jordan.png": "/PersonalWebSite/static/media/gauss-jordan.d27d28ea343e17f80731.png",
+    "static/media/Ellie-Login.jpg": "/PersonalWebSite/static/media/Ellie-Login.7ba14d139627500244e0.jpg",
     "static/media/Morse.jpg": "/PersonalWebSite/static/media/Morse.2e9fa205b14a61506439.jpg",
+    "static/media/Ellie-Messages.jpg": "/PersonalWebSite/static/media/Ellie-Messages.57271548de05553a805f.jpg",
     "static/media/monitor.svg": "/PersonalWebSite/static/media/monitor.30f17fc32b4ac1ac44af6e9425e1447b.svg",
     "static/media/microsoft-sql-server-logo.svg": "/PersonalWebSite/static/media/microsoft-sql-server-logo.2b14e66fd8a72b84132aecc5c41cfccb.svg",
     "static/media/revicons.eot": "/PersonalWebSite/static/media/revicons.a77de540a38981833f9e.eot",
@@ -34,11 +43,11 @@
     "static/media/arrow1.svg": "/PersonalWebSite/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/PersonalWebSite/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.8957e130.css.map": "/PersonalWebSite/static/css/main.8957e130.css.map",
-    "main.9699fea9.js.map": "/PersonalWebSite/static/js/main.9699fea9.js.map",
+    "main.3f3d4901.js.map": "/PersonalWebSite/static/js/main.3f3d4901.js.map",
     "787.5809834d.chunk.js.map": "/PersonalWebSite/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8957e130.css",
-    "static/js/main.9699fea9.js"
+    "static/js/main.3f3d4901.js"
   ]
 }
