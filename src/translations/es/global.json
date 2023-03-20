@@ -19,11 +19,11 @@
         "proeficient":"Experimentado: C, C++, C#, Typescript, HTML, SQL, NoSQL, Angular, Ionic Framework ",
         "competent":"Competente: JavaScript, CSS, Firebase, Git.",
         "familiar":"Familiarizado: Python, React, NodeJs.",
-        "title":"Hola! Soy Santiago Eliam",
+        "title":"Hola! Soy Santiago",
         "title-rotate":[ "Desarrollador", "Desarrollador de Apps", "Desarrollador??"],
-        "title-rotate1":"Desarrollador", 
-        "title-rotate2":"Desarrollador de Apps",
-        "title-rotate3": "Desarrollador??",
+        "title-rotate1":"Eliam", 
+        "title-rotate2":"Ramirez",
+        "title-rotate3": "Developer",
         "welcome":"Bienvenido a mi Portafolio"
     },
     "skills":{
