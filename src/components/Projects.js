@@ -101,21 +101,6 @@ export const Projects = () => {
   ];
   const Desktopprojects = [
     {
-      title: t("projects.Desktop1"),
-      description: "WinForms C#, Bunifu, Microsoft SQL Server",
-      imgUrl: Tickets,
-    },
-    {
-      title: t("projects.Desktop2"),
-      description: "Java Server Pages, MySQL",
-      imgUrl: CRUDjsp,
-    },
-    {
-      title: t("projects.Desktop3"),
-      description: "Java, Swing, MySQL",
-      imgUrl: Pharmacy,
-    },
-    {
       title: t("projects.Math1"),
       description: "WinForms C#",
       imgUrl: GaussImg,
@@ -129,6 +114,21 @@ export const Projects = () => {
       title: t("projects.Math3"),
       description: "WinForms C#, AngouriMath,  WPF Math",
       imgUrl: InterpolationImg,
+    },
+    {
+      title: t("projects.Desktop1"),
+      description: "WinForms C#, Bunifu, Microsoft SQL Server",
+      imgUrl: Tickets,
+    },
+    {
+      title: t("projects.Desktop2"),
+      description: "Java Server Pages, MySQL",
+      imgUrl: CRUDjsp,
+    },
+    {
+      title: t("projects.Desktop3"),
+      description: "Java, Swing, MySQL",
+      imgUrl: Pharmacy,
     }
   ];
 
