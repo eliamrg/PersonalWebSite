@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/PersonalWebSite/static/css/main.8957e130.css",
-    "main.js": "/PersonalWebSite/static/js/main.15ef1768.js",
+    "main.css": "/PersonalWebSite/static/css/main.69d584ea.css",
+    "main.js": "/PersonalWebSite/static/js/main.a86c0972.js",
     "static/js/787.5809834d.chunk.js": "/PersonalWebSite/static/js/787.5809834d.chunk.js",
     "static/media/color-sharp.png": "/PersonalWebSite/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/PersonalWebSite/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/TSPCapture.jpg": "/PersonalWebSite/static/media/TSPCapture.7791d1ffc2f411a5a909.jpg",
+    "static/media/ANOVA.png": "/PersonalWebSite/static/media/ANOVA.4182a090d6583900094a.png",
     "static/media/banner-bg.png": "/PersonalWebSite/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/pharmacy.jpg": "/PersonalWebSite/static/media/pharmacy.4262c9e0d7a05bcfd365.jpg",
     "static/media/Ellie-License.jpg": "/PersonalWebSite/static/media/Ellie-License.d4056d291489b94fee09.jpg",
@@ -42,12 +44,12 @@
     "static/media/arrow2.svg": "/PersonalWebSite/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/PersonalWebSite/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/PersonalWebSite/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.8957e130.css.map": "/PersonalWebSite/static/css/main.8957e130.css.map",
-    "main.15ef1768.js.map": "/PersonalWebSite/static/js/main.15ef1768.js.map",
+    "main.69d584ea.css.map": "/PersonalWebSite/static/css/main.69d584ea.css.map",
+    "main.a86c0972.js.map": "/PersonalWebSite/static/js/main.a86c0972.js.map",
     "787.5809834d.chunk.js.map": "/PersonalWebSite/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8957e130.css",
-    "static/js/main.15ef1768.js"
+    "static/css/main.69d584ea.css",
+    "static/js/main.a86c0972.js"
   ]
 }
