@@ -30,7 +30,7 @@
         "intro1":"Aqui hay un poco de mis Habilidades y Experiencia.",
         "intro2":"",
         "skill1":"Desarrollo de Aplicaciones de Escritorio",
-        "skill2":"Aplicaciones Mobiles en Angular",
+        "skill2":"Aplicaciones Web en Angular",
         "skill3":"Bases de Datos SQL"
     },
     "projects":{
@@ -55,7 +55,9 @@
         "Ellie-Notifications":"Notificaciones",
         "Ellie-Posts":"Publicar",
         "Ellie-Profile":"Perfil de Usuario",
-        "Ellie-Settings":"Ajustes"
+        "Ellie-Settings":"Ajustes",
+        "Tsp":"Problema del Agente Viajero",
+        "LoadMore":"Cargar Mas"
     },
     "contact":{
         "title":"Ponte En Contacto",

@@ -30,7 +30,7 @@
         "intro1":"There is a little bit of my skills and experience.",
         "intro2":"",
         "skill1":"Desktop Apps Development",
-        "skill2":"Angular Mobile Apps",
+        "skill2":"Angular Web Apps",
         "skill3":"SQL Databases"
     },
     "projects":{
@@ -55,7 +55,9 @@
         "Ellie-Notifications":"Notifications",
         "Ellie-Posts":"Create a Post",
         "Ellie-Profile":"Profile Page",
-        "Ellie-Settings":"Settings"
+        "Ellie-Settings":"Settings",
+        "Tsp":"Traveling Salesman Problem",
+        "LoadMore": "Load More"
     },
     "contact":{
         "title":"Get In Touch",
