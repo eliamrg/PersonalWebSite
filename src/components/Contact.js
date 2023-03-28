@@ -45,6 +45,10 @@ export const Contact = () => {
     }
   };
 
+  const Link = () => {
+    window.location.replace('www.google.com');
+  };
+
   return (
     <section className="contact" id="connect">
       <Container>
@@ -78,7 +82,7 @@ export const Contact = () => {
                     
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder={t("contact.message")}onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <button onClick={Link} type="submit"><span>{buttonText}</span></button> 
                     </Col>
                     <a>Currently Disabled</a>
                     {
